@@ -1,6 +1,6 @@
 <?php
 
-namespace XM\FilterBundle\DependencyInjection;
+namespace XM\AssetVersionBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
