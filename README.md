@@ -54,8 +54,8 @@ Create a service for the version strategy:
         arguments: ['%web_root%']
 ```
 
-`%web_root%` is the root of the html dir. This will be added to the paths passed
-to the version strategy. It could be configured as
+`%web_root%` is the root of the web directory where assets are stored. This will
+be added to the paths passed to the version strategy. It could be configured as
 `parameter.web_root: '%kernel.root_dir%/../html'` where `html` is the root of
 the web accessible directory.
 
